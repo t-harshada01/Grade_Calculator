@@ -1,0 +1,37 @@
+def get_letter_grade(average):
+    if average >= 90:
+        return 'A'
+    elif average >= 80:
+        return 'B'
+    elif average >= 70:
+        return 'C'
+    elif average >= 60:
+        return 'D'
+    else:
+        return 'F'
+
+def calculate_gpa(letter_grade):
+    gpa_scale = {'A': 4.0, 'B': 3.0, 'C': 2.0, 'D': 1.0, 'F': 0.0}
+    return gpa_scale.get(letter_grade, 0.0)
+
+def grade_manager():
+    print("Welcome to the Student Grade Manager")
+    num_subjects = int(input("Enter the number of subjects: "))
+    
+    total_grades = 0
+    
+    for _ in range(num_subjects):
+        subject = input("Enter the subject name: ")
+        grade = float(input(f"Enter the grade for {subject}: "))
+        total_grades += grade
+    
+    average = total_grades / num_subjects
+    letter_grade = get_letter_grade(average)
+    gpa = calculate_gpa(letter_grade)
+    
+    print(f"\nAverage Grade: {average:.2f}")
+    print(f"Letter Grade: {letter_grade}")
+    print(f"GPA: {gpa:.2f}")
+
+# Call the grade manager function
+grade_manager()
