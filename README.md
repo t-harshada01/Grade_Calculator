@@ -18,7 +18,7 @@ To use this program, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/student-grades-tracker.git
+   git clone https://github.com/t-harshada01/Grade_Calculator.git
    ```
 2. **Navigate to the project directory:**
    ```bash
