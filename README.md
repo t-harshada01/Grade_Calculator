@@ -1,11 +1,17 @@
 ## Person Details 
 
 Name: Harshada Ganesh Tupe
+
 Company: CODTECH IT SOLUTIONS PVT.LTD
+
 Task Name: Student Grades Tracker (CODTECH TASK 1)
+
 Domain: Python Programming
+
 Duration: 1 August to 1 September 2024
+
 Mentor: Muzammil Ahmed
+
 Intern ID: CT08DS6116
 
 
