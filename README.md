@@ -1,7 +1,15 @@
-# Student Grades Tracker
+## Person Details 
 
-## Author
-Harshada Ganesh Tupe
+Name: Harshada Ganesh Tupe
+Company: CODTECH IT SOLUTIONS PVT.LTD
+Task Name: Student Grades Tracker (CODTECH TASK 1)
+Domain: Python Programming
+Duration: 1 August to 1 September 2024
+Mentor: Muzammil Ahmed
+Intern ID: CT08DS6116
+
+
+## Overview Of The Project 
 
 ## Description
 The Student Grades Tracker is a Python program designed to help users manage and track student grades. The program allows users to input grades for different subjects or assignments, calculate average grades, and display overall grades along with additional information such as letter grades and GPA.
