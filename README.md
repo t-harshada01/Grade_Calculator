@@ -17,7 +17,6 @@ Intern ID: CT08DS6116
 
 ## Overview Of The Project 
 
-## Description
 The Student Grades Tracker is a Python program designed to help users manage and track student grades. The program allows users to input grades for different subjects or assignments, calculate average grades, and display overall grades along with additional information such as letter grades and GPA.
 
 ## Features
